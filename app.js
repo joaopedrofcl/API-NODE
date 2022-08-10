@@ -4,8 +4,10 @@ const express = require('express')
 //chamando a função express() para a variavel app
 const app = express()
 
+//chamando a rota de produtos criada no arquivo produtos.js
+const rotaProdutos = require('./routes/produtos')
 
-app.use(function(req , res , next){
+app.use("/teste", function(req , res , next){
     res.status(200).send('<h1>Olá mundo</h1>')
 
 })
