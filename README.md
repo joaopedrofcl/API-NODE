@@ -1,6 +1,6 @@
 <h1>API-NODE</h1>
 <h2>Sobre o Projeto</h2>
-<p>API REST desenvolvida por mim utilizando Node.js</p>
+<p>API REST que estou desenvolvendo utilizando Node.js</p>
 <h2>Ferramentas usadas</h2>
 <ul>
 <li>Express</li>
