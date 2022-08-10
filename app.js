@@ -7,10 +7,7 @@ const app = express()
 //chamando a rota de produtos criada no arquivo produtos.js
 const rotaProdutos = require('./routes/produtos')
 
-app.use("/teste", function(req , res , next){
-    res.status(200).send('<h1>Olá mundo</h1>')
-
-})
+app.use("/produtos", rotaProdutos)
 
 
 //tornado a variavel app exportavel para usar no arquivo server.js
