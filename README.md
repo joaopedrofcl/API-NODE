@@ -6,7 +6,6 @@
 <li>Express</li>
 <li>Postman</li>
 <li>Nodemon</li>
-<li>MYSQL<li>
 </ul>
  
 <h2>Conceitos trabalhados</h2>
