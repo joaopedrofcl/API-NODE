@@ -20,6 +20,14 @@ let db =[
 app.get('/' , (req , res) =>{
     return res.json(db)
 })
+
+app.post('/add' , (req , res) =>{
+    const body =req.body
+    if (!body)
+    return res.status(400).end
+    db.push(body)
+    return res.json(body)})
+
 app.listen(3000 , () => {
     console.log('Express está rodando na porta 3000')
 })
