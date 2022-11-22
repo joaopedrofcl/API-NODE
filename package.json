@@ -1,0 +1,19 @@
+{
+  "name": "api-node",
+  "version": "1.0.0",
+  "description": "<h1>API-NODE</h1>\r <h2>Sobre o Projeto</h2>\r <p>API REST que estou desenvolvendo utilizando Node.js</p>\r <h2>Ferramentas usadas</h2>\r <ul>\r <li>Express</li>\r <li>Postman</li>\r <li>Nodemon</li>\r </ul>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaopedrofcl/API-NODE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaopedrofcl/API-NODE/issues"
+  },
+  "homepage": "https://github.com/joaopedrofcl/API-NODE#readme"
+}
