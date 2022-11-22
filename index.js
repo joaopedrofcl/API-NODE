@@ -17,7 +17,9 @@ let db =[
     {"4":{Nome: 'Matheus' , peso: '80'}}
 ]
 
-app.get('/')
+app.get('/' , (req , res) =>{
+    return res.json(db)
+})
 app.listen(3000 , () => {
     console.log('Express está rodando na porta 3000')
 })
